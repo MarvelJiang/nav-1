@@ -52,6 +52,14 @@ a{
     border-radius:25px;
 }
 
+.siteList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: space-between;
+}
+
+
 @media (min-width: 500px){
     .searchForm{
         max-width: 400px;
@@ -61,6 +69,7 @@ a{
     .siteList{
         margin-left: 0;
         margin-right: -25px;
+        justify-content: flex-start;
     }
     .globalHeader {
         margin-top: 200px;
@@ -95,11 +104,7 @@ img{
     height: 24px;
 }
 
-.siteList {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 20px;
-}
+
 
 .siteList>li {
     margin-bottom: 10px;
