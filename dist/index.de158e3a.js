@@ -25,8 +25,8 @@ const hashMap = mySiteObject || [
         url: 'https://www.douyin.com/'
     },
     {
-        logo: 'https://www.bootcdn.cn/favicon.ico',
-        url: 'https://www.bootcdn.cn/'
+        logo: 'https://www.4399.com/favicon.ico',
+        url: 'https://www.4399.com/'
     }, 
 ];
 const simplifyUrl = (url)=>{
